@@ -17,7 +17,12 @@ To=收件人, 多个用逗号隔开
 
 ## 运行
 
+需要 node 和 yarn
+
 ``` bash
+# 安装依赖
+yarn install
+
 # 直接运行
 yarn start
 
