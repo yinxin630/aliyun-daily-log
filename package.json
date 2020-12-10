@@ -1,0 +1,15 @@
+{
+  "name": "aliyun-daily-log",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "碎碎酱 <yinxin630@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.16"
+  }
+}
